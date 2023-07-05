@@ -1,17 +1,25 @@
 <a name="readme-top"></a>
 
+<div align="center"> <h3><b> README </b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -20,125 +28,110 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
+# 📖 My Portfolio <a name="about-project"></a>
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
 
-**[Hello Microverse]** is a project that focuses on introducing Github flows and linters. This is a guide for the installation and use of linters in html and css
+**Allan's Portfolio** is an undertaking to showcase my work as a fullstack
+engineer. It details my experience and creations over the course of my tech
+ventures.
 
-## 🛠 Built With <a name="built-with"></a>
-Linters installation and test on html5 and css
+## 🛠 Built With <a name="built-with"></a> HTML & CSS
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>html</summary>
-</details>
 
-<details>
-  <summary>css</summary>
-</details>
+<details> <summary>HTML5</summary> </details>
+
+<details> <summary>CSS3</summary> </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[html5 page]**
-- **[css page]**
-- **[node js]**
+- **Mobile First Development**
+- **Flex box**
+- **HTML5 Semantics**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+No live Demo yet.
+<!-- [Live Demo Link](https://google.com)-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-### Prerequisites <a name="prerequisites"><a/>
-
 To get a local copy up and running, follow these steps:
 
-- Create a new GitHub repo.
-- Create a new branch according to the GitHub flow rules.
-- Add a .gitignore file.
-- Add node_modules to gitignore file.
+### Prerequisites
 
-### Install <a name="install"></a>
+In order to run this project you need:
+- A smart phone/tablet with a browser
+- Node.js html/css linters
+ 
+### Setup 
 
-Install nodejs via nvm
+Clone this repository to your desired folder:
 
-- Set up a linter for HTML and CSS and make sure that any files that are not relevant are ignored by git.
-Please do the following steps in this order:
+```sh
+  cd my-folder
+  git clone https://github.com/allenkays/Mobile_Portfolio
+```
 
-    - In the first commit of your feature branch create a .github/workflows folder and add a copy of .github/workflows/linters.yml to that folder.
-        - Remember to use the file linked above
-        - Remember that .github folder starts with a dot.
-    - Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.
-        - If you think that change is necessary - open a Pull Request in this repository and let your code reviewer know about it.
-    - When you open your first pull request you should see the result of the GitHub actions checks:
+### Install
 
-#### Webhint
+Install this project with:
 
-A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors.
+```sh
+  cd my-project
+  npm install --save-dev hint@7.x
+  - NOTE: If you are running on Windows, you need to initialize npm to create package.json file.
 
-NOTE: If you are running on Windows, you need to initialize npm to create package.json file.
+  npm init -y
 
-\`npm init -y
+  - Then copy .hintrc to the root directory of your project
 
-- Run
+  -Install Stylehint 
+  npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x`
 
-\`npm install --save-dev hint@7.x
+  - Then copy .stylelintrc.json to the root directory of your project
+### Usage
 
-- Copy .hintrc to the root directory of your project.
-Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.
+To run the project, execute the following command:
+Just click on index.html file and open with your favourite  browser.
 
-    - If you think that change is necessary - open a Pull Request in this repository and let your code reviewer know about it.
+### Run tests
 
-- Run
+- To run tests, run the following command:
+```
+ npx hint .
+```
+- and
 
-\`npx hint .
+```
+  npx stylelint "**/*.{css,scss}"
 
-    Fix validation errors.
+-Fix validation errors.
 
-#### Stylelint
-A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
-    - Run
+### Deployment
 
-    \`npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x\`
+You can deploy this project using:
 
-- Copy .stylelintrc.json to the root directory of your project.
+- A webhosting service like godaddy.com
 
-- Do not make any changes in config files - they represent style guidelines that you share with your team.
+## 👥 Authors <a name="authors"></a>
 
-    - If you think that change is necessary - open a Pull Request in this repository and let your code reviewer know about it.
-
-\`Run npx stylelint "**/*.{css,scss}" on the root of your directory of your project.\`
-
-- Fix linter errors.
-
-
-### Usage <a name="usage"></a>
-- Add 3 files (each one in a separate commit):
-
-	- A .html file that includes a header with the text "Hello Microverse!". Use h1 tag for that.
-	- A .css file that includes one class with styles for your header (make it in your favorite color).
-	- A test.md file with the text "This file should be ignored by git".
-
-### Run tests <a name="run tests"></a>
-
- \`sh -c hint .\`
- \`npx stylelint "\*\*/\*.{css,scss}"\`
-
-
-##: 👥 Authors <a name="authors"></a>
-
-
-👤 **Author1**
+👤 **Allan K.**
 
 - GitHub: [@allenkays](https://github.com/allenkays)
-- Twitter: [@allenkays](https://twitter.com/allenkays)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/allan-sang/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Twitter: [@twitterhandle](https://twitter.com/allenkays)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/allan-sang)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[linters for other stacks]**
+- [ ] **[Desktop development]**
+- [ ] **[Tablet development]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,15 +145,19 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project can give me a star for this repo.
+
+If you like this project feel free to give a star and follow on github
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Ajrass and May for their immense support
+
+I would like to thank @tajemouti and @ariful04 for their immense support and guidance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ## 📝 License <a name="license"></a>
 
