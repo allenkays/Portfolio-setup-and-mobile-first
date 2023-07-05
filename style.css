@@ -8,12 +8,11 @@
 
 body { min-width: 375px; }
 
-.content{
+.content {
   position: absolute;
   width: 375px;
   height: 6752px;
   display: flex;
-  height: 100vh;
 }
 
 .header {
@@ -124,10 +123,3 @@ body { min-width: 375px; }
 #profile:hover {
   background-color: #3c3a39;
 }
-
-
-
-
-
-
-
