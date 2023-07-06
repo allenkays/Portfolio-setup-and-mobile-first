@@ -218,7 +218,6 @@ body {
 
   color: #091e42;
 
-
   /* Inside auto layout */
 
   flex: none;
@@ -354,7 +353,6 @@ button:disabled {
   text-align: center;
   color: #fff;
 
-
   /* Inside auto layout */
 
   flex: none;
@@ -424,7 +422,6 @@ button:disabled {
 
   color: #fff;
 
-
   /* Inside auto layout */
 
   flex: none;
@@ -441,7 +438,6 @@ button:disabled {
   width: hug (247px);
   height: hug (40px);
   gap: 12px;
-
 
   /* Inside auto layout */
 
