@@ -318,6 +318,22 @@ body {
   background: #fff;
 }
 
+button:focus {
+  color: #f4f1f0;
+  background: #e05304;
+}
+
+button:hover {
+  color: #f55800;
+  background: #dcdcdc;
+  border: 1px solid #f55800;
+}
+
+button:disabled {
+  color: #5b5957;
+  background: #f4f1f0;
+}
+
 .s-button {
   /* Auto layout */
 
