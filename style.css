@@ -129,26 +129,26 @@ body {
 .portfolio {
   /* Recent Works */
 
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   align-items: center;
-  gap: 80px;
+  gap: 5px;
   width: 375px;
   left: 0;
   margin-top: 682px;
 }
 
 .recent-work {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  gap: 24px;
+  justify-items: center;
+  text-align: justify;
 }
 
 .title {
   /* Title */
   width: 327px;
   height: 83px;
-  margin-top: 20px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -318,14 +318,20 @@ body {
 }
 
 button:focus {
-  color: #f4f1f0;
-  background: #e05304;
+  color: #ffffff;
+  background: #ff7f00;
 }
 
 button:hover {
-  color: #f55800;
-  background: #dcdcdc;
-  border: 1px solid #f55800;
+  color: #ffffff;
+  background: #ff6b00;
+  border: 1px solid #ff6b00;
+}
+
+button:active {
+  color: #ffffff;
+  background: #e05304;
+  border: 1px solid #e05304;
 }
 
 button:disabled {
@@ -335,11 +341,12 @@ button:disabled {
 
 .s-button {
   /* Auto layout */
-
   align-self: flex-start;
+  justify-self: flex-start;
+  margin-left: 24px;
+  margin-right: auto;
   width: hug (124px);
   height: hug (48px);
-  left: 101.5px;
   padding: 12px;
   gap: 10px;
   background: #ff6b00;
@@ -361,9 +368,11 @@ button:disabled {
 }
 
 .art-data {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 24px;
   align-items: center;
+  justify-items: center;
   position: relative;
   background-image: url("./images/recent_works/bg-img.png");
 
@@ -386,6 +395,7 @@ button:disabled {
 
   width: 295px;
   height: 81px;
+  margin-top: -24px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -503,12 +513,11 @@ button:disabled {
 
 .b-button {
   display: block;
-  margin: auto;
   position: absolute;
   width: 327px;
   height: 48px;
-  left: 0;
-  bottom: 0;
+  left: 24px;
+  bottom: 24px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -525,8 +534,10 @@ button:disabled {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 24px;
+  justify-items: center;
+  align-items: center;
 
   /* height: 100%; */
 }
@@ -542,7 +553,8 @@ button:disabled {
   width: 375px;
   height: 1801px;
   top: 4137px;
-  margin-top: 80px;
+  margin-top: -10px;
+  margin-bottom: -10px;
   background: #1c1a19;
 }
 
