@@ -318,18 +318,18 @@ body {
 }
 
 button:focus {
-  color: #ffffff;
+  color: #fff;
   background: #ff7f00;
 }
 
 button:hover {
-  color: #ffffff;
+  color: #fff;
   background: #ff6b00;
   border: 1px solid #ff6b00;
 }
 
 button:active {
-  color: #ffffff;
+  color: #fff;
   background: #e05304;
   border: 1px solid #e05304;
 }
