@@ -645,7 +645,7 @@ button:disabled {
 .feedback-text {
   color: #172b4d;
   text-align: center;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -656,10 +656,11 @@ button:disabled {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;  
+  gap: 24px;
 }
 
-#fullname, #email {
+#fullname,
+#email {
   display: flex;
   width: 295px;
   height: 18px;
@@ -667,45 +668,59 @@ button:disabled {
   justify-content: center;
   flex-shrink: 0;
   color: #979493;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   border: none;
-
 }
 
 .divider {
   width: 327px;
   height: 1px;
-  flex-shrink: 0;  
+  flex-shrink: 0;
+}
+
+.rectangle-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  height: 114px;
+  flex-shrink: 0;
+  border: none;
+  padding: 5px;
+  background: #fbf8f7;
 }
 
 #message {
   display: flex;
   width: 303px;
   height: 90px;
+  padding: 12px;
   flex-direction: column;
   flex-shrink: 0;
-  color: #3C3A39;
+  color: #3c3a39;
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-style: italic;
   font-weight: 400;
   line-height: 24px;
+  border: none;
+  background: #fbf8f7;
 }
 
 .c-button {
   display: flex;
   padding: 12px;
   align-items: center;
-  gap: 10px;  
+  gap: 10px;
   background: #ff6b00;
-  border: none;  
-  color:#fff;
+  border: none;
+  color: #fff;
   text-align: center;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 700;
@@ -713,19 +728,21 @@ button:disabled {
   letter-spacing: 0.51px;
 }
 
-footer{
+footer {
   display: flex;
   width: 375px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   flex-direction: column;
   align-items: center;
   gap: 15px;
 }
+
 .footer-line {
   width: 375px;
   height: 1px;
-  background: var(--neutrals-n-40, #DFE1E6);
+  background: #dfe1e6;
 }
+
 .footer-line1 {
   display: flex;
   align-self: center;
@@ -733,7 +750,7 @@ footer{
   height: 5px;
   flex-shrink: 0;
   border-radius: 10px;
-  background: #0D151E;
+  background: #0d151e;
 }
 
 .contact-links-2 {
@@ -741,6 +758,5 @@ footer{
   align-items: center;
   list-style-type: none;
   height: 40px;
-  width: 200px;  
+  width: 200px;
 }
-
