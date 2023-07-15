@@ -1,6 +1,4 @@
 @media screen and (min-width: 768px) {
-
-    
   * {
     padding: 0;
     margin: 0;
@@ -9,6 +7,7 @@
     text-decoration: none;
     list-style-type: none;
   }
+
   body {
     width: 100%;
     font-size: large;
@@ -25,23 +24,23 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-    line-height: 20px;    
+    line-height: 20px;
   }
-  
+
   .nav-link {
     margin-left: 20px;
     padding: 5%;
   }
-  
+
   .nav-link a {
     color: #fff; /* Set your desired color */
     text-decoration: none;
   }
-  
 
   .main {
     display: block;
   }
+
   .welcome {
     display: flex;
     flex-direction: row-reverse;
@@ -52,7 +51,7 @@
     background-position-x: right;
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100%
+    width: 100%;
   }
 
   .hello {
@@ -81,6 +80,7 @@
     flex-direction: row;
     align-items: center;
   }
+
   .custom-hr {
     width: 68%;
   }
@@ -131,7 +131,7 @@
   }
 
   .skills {
-    width:100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -144,7 +144,9 @@
     margin-left: -20%;
   }
 
-  .lang-frameworks1, .lang-frameworks2, .lang-frameworks3 {
+  .lang-frameworks1,
+  .lang-frameworks2,
+  .lang-frameworks3 {
     margin-top: 65%;
     margin-left: -60%;
     display: flex;
@@ -153,7 +155,7 @@
   }
 
   .feedback {
-    display:flex;
+    display: flex;
     flex-direction: row;
   }
 
@@ -174,29 +176,28 @@
     display: none;
   }
 
-  .image-bg-mobile{
+  .image-bg-mobile {
     display: none;
   }
 
-  .b-button:hover {
+  #button:hover {
     background-color: rgb(221, 137, 10);
   }
-  
+
   .cards-works:hover {
     display: block;
   }
-  
+
   .art-data:hover h2,
   .art-data:hover p {
     color: transparent;
   }
-  
-  .art-data:hover b-button {
+
+  .art-data:hover .b-button {
     display: block;
   }
-  
+
   .art-data:hover ul {
     display: none !important;
   }
 }
-  
