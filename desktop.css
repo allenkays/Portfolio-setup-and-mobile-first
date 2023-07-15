@@ -92,6 +92,7 @@
   }
 
   .art {
+    margin-top: 24px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -117,7 +118,7 @@
     background-position-x: right;
     background-position-y: 10%;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 150vh;
   }
 
   .about-me {
@@ -157,6 +158,9 @@
   .feedback {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
   .feedback-text {
@@ -199,5 +203,9 @@
 
   .art-data:hover ul {
     display: none !important;
+  }
+  
+  .feedback-form {
+    display: none;
   }
 }
