@@ -128,11 +128,10 @@
     height: 120vh;
   }
 
-
   .about {
     width: 100%;
     position: relative;
-    padding: 5%
+    padding: 5%;
   }
 
   .about-me {
@@ -191,9 +190,7 @@
   .rectangle-border,
   #fullname,
   #email,
-  #message {
-    width: 100%
-  }
+  #message { width: 100%; }
 
   .feedback-text {
     display: flex;
@@ -212,7 +209,7 @@
   }
 
   .footer-line {
-    width: 100%
+    width: 100%;
   }
 
   .mobile-menu {
@@ -228,7 +225,7 @@
   }
 
   .footer-line1 {
-    display: none
+    display: none;
   }
 
   #button:hover {
