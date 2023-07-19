@@ -1,8 +1,5 @@
 @media screen and (min-width: 768px) {
   * {
-    padding: 0;
-    margin: 0;
-    color: var(--white);
     text-decoration: none;
     list-style-type: none;
   }
@@ -21,7 +18,7 @@
   }
 
   .logo {
-    margin-left: 12%;
+    margin-left: 10%;
   }
 
   .nav-links {
@@ -48,16 +45,12 @@
     text-decoration: none;
   }
 
-  .main {
-    display: block;
-  }
-
   .welcome {
     background-image: url("./assets/background/Illustration-header.svg");
     background-position-y: top;
     background-position-x: right;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 45%;
     height: 100vh;
     width: 100%;
   }
@@ -67,8 +60,7 @@
     flex-direction: row-reverse;
     justify-items: flex-end;
     align-content: center;
-    gap: 0;
-    width: 60%;
+    width: 55%;
   }
 
   .contact-links {
@@ -104,6 +96,7 @@
   }
 
   .art {
+    width: 100%;
     margin-top: 24px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -132,7 +125,7 @@
     background-position-y: 10%;
     background-repeat: no-repeat;
     background-size: 50%;
-    height: 150vh;
+    height: 120vh;
   }
 
 
