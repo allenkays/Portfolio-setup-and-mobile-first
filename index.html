@@ -21,15 +21,15 @@
                     <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
                     <li class="nav-link"><a href="#about">About</a></li>
                     <li class="nav-link"><a href="#feedback">Contact</a></li>
-                    <li><a href="#"><img src="assets/header/Icon - Mail.svg" alt="mail"></a></li>
+                    <li class="nav-link"><a href="#"><img src="assets/header/Icon - Mail.svg" alt="mail"></a></li>
                 </ul>
             </nav>           
         </header>
         <main class="content">
             <section class="welcome">
                 <article class="hello">
-                    <div>
-                        <h1 class="main-title"><span>Hey There. I'm Allan.</span></h1>span></h1>
+                    <div class="intro">
+                        <h1 class="main-title"><span>Hey There.<br>I'm Allan.</span></h1>
                         <h2 class="sub-title">I'm a Software Developer</h2>
                         <p class="info">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                             don’t hesitate to contact me.</p>
@@ -37,19 +37,19 @@
                     <div>
                         <ul class="contact-links">
                             <li>
-                                <a href="https://github.com/allenkays"><img  id="profile" src="assets/contact_profiles/github.png"/></a>
+                                <a href="https://github.com/allenkays"><img  class="profile" src="assets/contact_profiles/github.png"/></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/in/allan-sang/"><img  id="profile" src="assets/contact_profiles/linkedin.png"/></a>
+                                <a href="https://www.linkedin.com/in/allan-sang/"><img  class="profile" src="assets/contact_profiles/linkedin.png"/></a>
                             </li>
                             <li>
-                                <a href="https://discord.com/allenkays"><img  id="profile" src="assets/contact_profiles/angelist.png"/></a>
+                                <a href="https://discord.com/allenkays"><img  class="profile" src="assets/contact_profiles/angelist.png"/></a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/allenkays"><img  id="profile" src="assets/contact_profiles/twitter.png"/></a>
+                                <a href="https://twitter.com/allenkays"><img  class="profile" src="assets/contact_profiles/twitter.png"/></a>
                             </li>
                             <li>
-                                <a href="https://medium.com/@allainkibet"><img  id="profile" src="assets/contact_profiles/medium.png"/></a>
+                                <a href="https://medium.com/@allainkibet"><img  class="profile" src="assets/contact_profiles/medium.png"/></a>
                             </li>
                         </ul>
                     </div>
@@ -57,13 +57,15 @@
             </section>
             <section class="portfolio">
                 <article class="recent-work">
-                    <div class="recent-works">
-                        <h2 class="title">My Recent Works</h2>
+                    <div class="most-recent">
+                        <h2 class="title"><span>My Recent Works</span></h2>
                         <hr class="custom-hr">
                     </div>
                     <div class="recent-projects">
-                        <img class="custom-img-mobile" src="assets/recent_works/hm_img.png" alt="placeholder img"/>
-                        <img class="custom-img-desktop" src="assets/recent_works/bg-img-desktop.png" alt="placeholder img"/>
+                        <div class="recent-projects-img">
+                            <img class="recent-projects-mobile-img" src="./assets/recent_works/hm_img.png" alt="Home-Image">
+                            <img class="recent-projects-desktop-img" src="./assets/recent_works/bg-img-desktop.png" alt="Homepage-image">
+                        </div>
                         <div class="stories">
                             <h3 class="s-title">Multi-Post Stories</h3>
                             <p class="paragraph">
@@ -79,7 +81,7 @@
                         </div>
                     </div>
                 </article>
-                <section class="art">
+                <article class="samples">
                     <article class="art-data">
                         <img class="bg-img2" src="assets/recent_works/bg-img.png" alt="background-image"/>
                         <div class="overlay-content">
@@ -170,7 +172,7 @@
                             <button class="b-button" type="button">See project</button>
                         </div>
                     </article>
-                </section>
+                </article>
             </section>
             <section class="about-content">
                 <article class="about">
@@ -180,83 +182,80 @@
                             Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
                         </p>
                         <button class="resume" type="button">Get my resume</button>
-                        <img class="image-bg-mobile" src="assets/about/bg_img.png" alt="bg-img"/> 
-                    </div>              
-                    <div class="skills">
-                        <hr class="about-hr">
-                        <ul class="my-stack">
-                            <span class="stack-title">
-                                <h3><img class="bullet" src="assets/about/Rectangle_55.png" alt="shape"> Language</h3>
-                                <ul class="lang-frameworks1">
-                                    <li class="stack3">JavaScript</li>
-                                    <li class="stack3">Ruby</li>
-                                    <li class="stack3">HTML</li>
-                                    <li class="stack3">CSS</li>
-                                </ul>
-                            </span>
-                            <span class="stack-title">
-                                <h3><img class="bullet" src="assets/about/Rectangle_56.png" alt="shape"> Frameworks</h3>
-                                <ul class="lang-frameworks2">
-                                    <li class="stack3">React.js</li>
-                                    <li class="stack3">Ruby on Rails</li>
-                                    <li class="stack3">RSpec</li>
-                                    <li class="stack3">Capybara</li>
-                                </ul>
-                            </span>
-                            <span class="stack-title">
-                                <h3><img class="bullet" src="assets/about/Rectangle_57.png" alt="shape"> Skills</h3>
-                                <ul class="lang-frameworks3">
-                                    <li class="stack3">Database Management</li>
-                                    <li class="stack3">Version Control</li>
-                                    <li class="stack3">CLI</li>
-                                    <li class="stack3">API Design</li>
-                                    <li class="stack3">Web Development</li>
-                                </ul>
-                            </span>                           
-                        </ul>
-                    </div>>
+                    </div>
+                    <img class="image-bg-mobile" src="assets/about/bg_img.png" alt="background-image"/>
+                    <!--<img class="image-bg-desktop" src="assets/about/about.svg" alt="background-image"/> -->
                 </article>
-            </section>
-            <section class="feeback">
-                <article class="feedback">
-                    <p class="feedback-text">
-                        I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-                    </p>                    
-                    <form class="feedback-form" action="https://formspree.io/f/mgejedvd" method="POST">
-                        <input type="text" id="fullname" name="fullname" placeholder="Full name" maxlength="30" required>
-                        <hr class="divider">
-                        <input type="email" id="email" name="email" placeholder="Email address" required>
-                        <hr class="divider">
-                        <div class="rectangle-border">
-                            <textarea id="message" name="message" rows="5" placeholder="Write me something" maxlength="500" required></textarea>
-                        </div>                        
-                        <button class="c-button" type="submit">Get in touch</button>
-                    </form>
-                </article>
-            </section>
-            <section class="footer">
-                <footer class="footer">
-                    <hr class="footer-line">
-                    <ul class="contact-links-2">
-                        <li>
-                            <a href="https://github.com/allenkays"><img  class="contact-links3" src="assets/footer_contacts/github.png"/></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/allan-sang/"><img  class="contact-links3" src="assets/footer_contacts/linkedin.png"/></a>
-                        </li>
-                        <li>
-                            <a href="https://discord.com/allenkays"><img  class="contact-links3" src="assets/footer_contacts/angelist.png"/></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/allenkays"><img  class="contact-links3" src="assets/footer_contacts/twitter.png"/></a>
-                        </li>
-                        <li>
-                            <a href="https://medium.com/@allainkibet"><img  class="contact-links3" src="assets/footer_contacts/medium.png"/></a>
-                        </li>
+                <hr class="about-hr">              
+                <article class="skills">
+                    <ul class="my-stack">
+                        <span class="stack-title">
+                            <h3><img class="bullet" src="assets/about/Rectangle_55.png" alt="shape"> Language</h3>
+                            <ul class="lang-frameworks1">
+                                <li class="stack3">JavaScript</li>
+                                <li class="stack3">Ruby</li>
+                                <li class="stack3">HTML</li>
+                                <li class="stack3">CSS</li>
+                            </ul>
+                        </span>
+                        <span class="stack-title">
+                            <h3><img class="bullet" src="assets/about/Rectangle_56.png" alt="shape"> Frameworks</h3>
+                            <ul class="lang-frameworks2">
+                                <li class="stack3">React.js</li>
+                                <li class="stack3">Ruby on Rails</li>
+                                <li class="stack3">RSpec</li>
+                                <li class="stack3">Capybara</li>
+                            </ul>
+                        </span>
+                        <span class="stack-title">
+                            <h3><img class="bullet" src="assets/about/Rectangle_57.png" alt="shape"> Skills</h3>
+                            <ul class="lang-frameworks3">
+                                <li class="stack3">Database Management</li>
+                                <li class="stack3">Version Control</li>
+                                <li class="stack3">CLI</li>
+                                <li class="stack3">API Design</li>
+                                <li class="stack3">Web Development</li>
+                            </ul>
+                        </span>                           
                     </ul>
-                    <hr class="footer-line1">
-                </footer>
+                </article>
             </section>
+            <section class="feedback">
+                <span class="feedback-text">
+                    I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+                </span>                    
+                <form class="feedback-form" action="https://formspree.io/f/mgejedvd" method="POST">
+                    <input type="text" id="fullname" name="fullname" placeholder="Full name" maxlength="30" required>
+                    <hr class="divider">
+                    <input type="email" id="email" name="email" placeholder="Email address" required>
+                    <hr class="divider">
+                    <div class="rectangle-border">
+                        <textarea id="message" name="message" rows="5" placeholder="Write me something" maxlength="500" required></textarea>
+                    </div>                        
+                    <button class="c-button" type="submit">Get in touch</button>
+                </form>
+            </section>
+            <footer class="footer">
+                <hr class="divider-line">
+                <ul class="contact-links-2">
+                    <li>
+                        <a href="https://github.com/allenkays"><img  class="contact-links3" src="assets/footer_contacts/github.png"/></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/allan-sang/"><img  class="contact-links3" src="assets/footer_contacts/linkedin.png"/></a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com/allenkays"><img  class="contact-links3" src="assets/footer_contacts/angelist.png"/></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/allenkays"><img  class="contact-links3" src="assets/footer_contacts/twitter.png"/></a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/@allainkibet"><img  class="contact-links3" src="assets/footer_contacts/medium.png"/></a>
+                    </li>
+                </ul>
+                <hr class="footer-line">
+            </footer>
         </main>
     </body>
 </html>
