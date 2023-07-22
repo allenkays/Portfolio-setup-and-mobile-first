@@ -135,8 +135,14 @@
     width: inherit;
   }
 
+  .title {
+    width: fit-content;
+    display: flex;
+    flex-shrink: 0;
+  }
+
   .custom-hr {
-    width: 65%;
+    width: inherit;
   }
 
   .recent-projects {
@@ -168,6 +174,10 @@
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
+  }
+
+  .b-button {
+    display: none;
   }
 
   .about-content {
@@ -307,11 +317,11 @@
     background-color: rgb(221, 137, 10);
   }
 
-  .cards-works:hover {
+  .art-data:hover {
     display: block;
   }
 
-  .art-data:hover h2,
+  .art-data:hover h3,
   .art-data:hover p {
     color: transparent;
   }
