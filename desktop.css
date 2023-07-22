@@ -61,6 +61,7 @@
   .nav-link {
     margin-left: 20px;
     padding: 5%;
+    transition: transform 0.2s ease-in-out;
   }
 
   .nav-link a {
@@ -152,6 +153,7 @@
     justify-content: center;
     gap: 24px;
     width: inherit;
+    transition: transform 0.3s ease-in-out;
   }
 
   .stories {
@@ -311,6 +313,14 @@
 
   .footer-line {
     display: none;
+  }
+
+  .nav-link:hover {
+    transform: scale(1.2);
+  }
+
+  .recent-projects :hover {
+    transform: scale(1.03);    
   }
 
   #button:hover {
