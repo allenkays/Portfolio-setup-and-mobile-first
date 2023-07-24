@@ -54,9 +54,7 @@ ventures.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-No live Demo yet.
-<!-- [Live Demo Link](https://google.com)-->
-
+<[Live Demo Link](https://allenkays.github.io/Portfolio-setup-and-mobile-first/)>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -119,6 +117,7 @@ Just click on index.html file and open with your favourite  browser.
 You can deploy this project using:
 
 - A webhosting service like godaddy.com
+- Here the website is deployed on GitHub pages.
 
 ## 👥 Authors <a name="authors"></a>
 
