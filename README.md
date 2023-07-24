@@ -54,7 +54,7 @@ ventures.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<[Live Demo Link](https://https://allenkays.github.io/Portfolio-setup-and-mobile-first/)>
+<[Live Demo Link](https://allenkays.github.io/Portfolio-setup-and-mobile-first/)>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
