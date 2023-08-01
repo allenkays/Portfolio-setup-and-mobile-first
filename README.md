@@ -13,6 +13,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+    - [Description](Description)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -56,6 +57,9 @@ ventures.
 
 <[Live Demo Link](https://allenkays.github.io/Portfolio-setup-and-mobile-first/)>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Description<a name="Description"></a>
+<[Description Link](https://www.loom.com/share/61b8521c341748ecb99ad9b659d396bb?sid=ab81947c-445c-4b4c-b615-baa381008568)>
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
