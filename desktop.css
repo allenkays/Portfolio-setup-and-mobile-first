@@ -35,16 +35,22 @@
     margin-right: 0;
   }
 
-  .menu-desktop {
-    width: 100%;
-    padding-left: 142px;
-    padding-right: 142px;
+  .header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right:6%;
   }
 
-  .nav-links {
+  .mobile-menu {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .menu-items {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -58,7 +64,8 @@
     line-height: 20px;
   }
 
-  .nav-link {
+  .nav-link,
+  .email {
     margin-left: 20px;
     padding: 5%;
   }
@@ -81,7 +88,7 @@
     flex-direction: row-reverse;
     margin-top: 0;
     width: 40%;
-    gap: 87px;
+    gap: 10%;
   }
 
   .intro {
@@ -293,7 +300,11 @@
     width: 100%;
   }
 
-  .mobile-menu {
+  .menu-divider {
+    display: none;
+  }
+
+  .hamburger-icon {
     display: none;
   }
 
