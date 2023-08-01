@@ -5,24 +5,25 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link rel="stylesheet" type="text/css" href ="desktop.css">
+        <link rel="stylesheet" type="text/css" href="desktop.css">
         <title>Portfolio Setup Mobile First</title>
     </head>
     <body>
         <!--Header section-->
         <header class="header">
-            <nav class="mobile-menu">
-                <a class="logo" href="#">Allan K. </a>
-                <a href="#"><img class="menuimg" src="assets/header/menu.png" alt="menu"/></a>
-            </nav>
-            <nav class="menu-desktop">
-                <a class="logo" href="#">Allan K. </a>
-                <ul class="nav-links">
-                    <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
-                    <li class="nav-link"><a href="#about">About</a></li>
-                    <li class="nav-link"><a href="#feedback">Contact</a></li>
-                    <li class="nav-link"><a href="#email"><img src="assets/header/Icon - Mail.svg" alt="mail"></a></li>
+            <a class="logo" href="#">Allan K. </a>
+            <nav class="mobile-menu">                
+                <ul class="menu-items">
+                    <li class="nav-link"><a href="#portfolio">Portfolio</a><hr class="menu-divider"></li>
+                    <li class="nav-link"><a href="#about">About</a><hr class="menu-divider"></li>
+                    <li class="nav-link"><a href="#feedback">Contact</a><hr class="menu-divider"></li>
+                    <li class="email"><a href="#email"><img src="assets/header/Icon - Mail.svg" alt="mail"></a></li>
                 </ul>
+                <div class="hamburger-icon">
+                    <span class="bar-1"></span>
+                    <span class="bar-1"></span>
+                    <span class="bar-1"></span>
+                </div>
             </nav>           
         </header>
         <main class="content">
@@ -257,5 +258,6 @@
                 <hr class="footer-line">
             </footer>
         </main>
+        <script src="./script.js"></script>
     </body>
 </html>
