@@ -3,6 +3,7 @@
 html {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -40,7 +41,6 @@ body {
     background-color: #3c3a39;
     height: 100%;
     width: 100%;
-    transition: 0.3s;
     position: fixed;
     top: 0;
     left: 0;
@@ -48,13 +48,21 @@ body {
     margin: 0;
     padding-top: 15%;
     padding-right: 10%;
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 90%;
+    }
   }
 
   .menu-items.show hr {
     min-width: 279px;
-    height: 1px;
-    background: #6f6c6b;
+    opacity: 30%;
     padding-right: 24px;
+    background: #6f6c6b;
   }
 
   .menu-items.show .email {
@@ -63,7 +71,7 @@ body {
 
   .menu-items.show .nav-link a {
     text-decoration: none;
-    color: #fff;
+    color: #fff5e1;
     font-family: Inter, sans-serif;
     font-size: 32px;
     font-weight: 700;
@@ -84,8 +92,9 @@ body {
     display: block;
     width: 24px;
     height: 2px;
-    background-color: #fff;
+    background-color: #fff5e1;
     margin: 5px;
+    opacity: 50%;
   }
 
   .hamburger-icon.show .bar-1:nth-child(2) {
@@ -375,6 +384,7 @@ button:disabled {
   background-image: url("./assets/background/bg_img.png");
   background-size: cover;
   background-position: center;
+  z-index: -1;
 }
 
 .overlay-content {
