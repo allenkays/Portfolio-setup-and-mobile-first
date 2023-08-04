@@ -127,7 +127,12 @@
   }
 
   .popup {
-    width: 75%;
+    width: 60%;
+    display: none;
+  }
+
+  .popup.show {
+    display: block;
   }
 
   .popup-content {

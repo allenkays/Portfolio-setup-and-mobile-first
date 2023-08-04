@@ -260,6 +260,7 @@ body {
 .popup-links {
   display: flex;
   justify-content: space-between;
+  text-decoration: none;
 }
 
 .l-button {
