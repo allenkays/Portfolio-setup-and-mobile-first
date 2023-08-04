@@ -125,16 +125,11 @@
     align-items: center;
     gap: 114px;
   }
-
-  .popup {
-    display: none;
-    width: 80%;
-  }
-
   .popup-content {
     display: flex;
     align-items: flex-start;
     gap: 24px;
+    width: 100%;
   }
 
   .tech-stack {
@@ -154,7 +149,7 @@
     justify-content: space-between;
     gap: 30px;
     align-items: flex-start;
-    width: 50%
+    width: 40%
   }
 
   .popup-links {
