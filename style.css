@@ -214,6 +214,11 @@ body {
   max-width: 90%;
   z-index: 1000; 
 }
+
+.popup.show {
+  display: block;
+}
+
 .popup-content {
   display: flex;
   flex-direction: column;
@@ -278,8 +283,7 @@ body {
   cursor: pointer;
 }
 
-.close-popup .bar-1,
-.close-popup .bar-2 {
+.close-popup .bar-1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -289,11 +293,11 @@ body {
   transform-origin: center;
 }
 
-.close-popup .bar-1 {
+.close-popup .bar-1:nth-child(1) {
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.close-popup .bar-2 {
+.close-popup .bar-1:nth-child(2) {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 

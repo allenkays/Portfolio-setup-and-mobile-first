@@ -125,6 +125,11 @@
     align-items: center;
     gap: 114px;
   }
+
+  .popup {
+    width: 75%;
+  }
+
   .popup-content {
     display: flex;
     align-items: flex-start;

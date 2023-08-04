@@ -1,7 +1,8 @@
 // Function to hide the popup
 function hidePopup() {
   const popup = document.getElementById('popup');
-  popup.style.display = 'none';
+  // popup.style.display = 'none';
+  popup.classList.remove('show');
 }
 
 // Define the closeButton element outside the showPopup function
@@ -55,7 +56,8 @@ function showPopup(projectIndex) {
   closeButton.addEventListener('click', hidePopup);
 
   // Make the popup visible by changing its display style
-  popup.style.display = 'block';
+  // popup.style.display = 'block';
+  popup.classList.add('show');
 }
 
 // Function to handle the click event on "See project" buttons
