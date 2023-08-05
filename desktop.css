@@ -116,7 +116,7 @@
   }
 
   .portfolio {
-    padding: 130px 24px;
+    padding: 24px;
     margin-left: 118;
     margin-right: 118;
     width: 100%;
@@ -124,6 +124,51 @@
     flex-direction: column;
     align-items: center;
     gap: 114px;
+  }
+
+  .popup {
+    width: 60%;
+    display: none;
+  }
+
+  .popup.show {
+    display: block;
+  }
+
+  .popup-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .tech-stack {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+  }
+
+  .popup-data {
+    display: flex;
+    gap: 24px;
+  }
+
+  .text-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-start;
+    width: 40%;
+  }
+
+  .popup-links {
+    display: flex;
+    gap: 24px;
+  }
+
+  .l-button {
+    align-self: flex-start;
   }
 
   .recent-work {
@@ -181,6 +226,7 @@
     grid-template-columns: 1fr;
     justify-items: center;
     align-items: center;
+    z-index: 0;
   }
 
   .b-button {
@@ -322,10 +368,6 @@
 
   .footer-line {
     display: none;
-  }
-
-  #button:hover {
-    background-color: rgb(221, 137, 10);
   }
 
   .art-data:hover {
