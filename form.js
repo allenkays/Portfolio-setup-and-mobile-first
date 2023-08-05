@@ -16,5 +16,7 @@ function validateAndSubmit() {
 // Add event listener below
 document.getElementById('feedback-form').addEventListener('submit', (event) => {
   event.preventDefault(); // Prevent the form from submitting by default
-  validateAndSubmit(); // Call the validation function
+  if (validateAndSubmit()) {
+    event.target.submit(); // Submit the form
+  }
 });
