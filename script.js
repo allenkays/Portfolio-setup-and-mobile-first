@@ -163,6 +163,42 @@ function generateCards() {
 
 generateCards();
 
+  // Listen for the resize event on the window and update isDesktopScreen accordingly
+  window.addEventListener('resize', updateIsDesktopScreen);
+
+  return article;
+}
+
+function createProjectsSection() {
+  const projectsDiv = document.getElementById('projects-container');
+
+  const section = document.createElement('section');
+  section.setAttribute('class', 'portfolio');
+
+  const {
+    name,
+    description,
+    featuredImage,
+    technologies,
+    button,
+  } = projectsData[0]; // Use object destructuring instead of array destructuring
+
+  const articleRecentWork = createArticleRecentWork(
+    name[0], description[0], featuredImage[0], technologies.slice(0, 4),
+  );
+  const articleSamples = createArticleSamples(
+    name.slice(1), description.slice(1), featuredImage.slice(1), technologies, button,
+  );
+
+  section.appendChild(articleRecentWork);
+  section.appendChild(articleSamples);
+
+  projectsDiv.appendChild(section);
+}
+
+// Call the function to create the projects section
+createProjectsSection();
+
 // Function to hide the popup
 function hidePopup() {
   const popup = document.getElementById('popup');
